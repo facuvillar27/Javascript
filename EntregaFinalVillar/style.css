@@ -1,0 +1,131 @@
+.body {
+    background-color: #333333 !important;
+}
+
+.header {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0px;
+    margin: 0px;
+    border-bottom: 2px solid #B6EADA;
+    z-index: 9999;
+}
+
+.header h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#imgCarrito {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.cart {
+    float: right;
+    font-size: 1.5rem;
+	position: relative;
+	margin-left: 20px;
+}
+
+.cart-count {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    font-size: 0.8rem;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    text-align: center;
+}
+
+
+#contenedorProductos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333333;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333333;
+}
+
+.muestraProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    margin: 10px;
+    
+}
+
+.carritoDOM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+    margin: 10px;
+    
+}
+
+.imagen {
+    width: 150px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tituloProducto {
+    text-align: center;
+}
+
+p, h3 {
+    text-align: center;
+}
+
+.imgBotonCarrito {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+#main {
+    background-color: #333333;
+    display: flex;
+    justify-content: end;
+}
+
+#buscador {
+    border-radius: 40px;
+    margin-right: 30px;
+}
+
+.ocultar {
+    display: none !important;
+}
